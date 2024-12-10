@@ -44,10 +44,10 @@ const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
-const prefix = '.'
+const prefix = '-'
 
 
-const ownerNumber = ['🧚‍♂️💕𝗔𝗱𝗱 𝗬𝗼𝘂𝗿 𝗕𝗼𝘁 𝗡𝘂𝗺𝗯𝗲𝗿 𝗛𝗲𝗿𝗲 𝗪𝗶𝘁𝗵 𝗖𝗼𝘂𝗻𝘁𝗿𝘆 𝗖𝗼𝗱𝗲💕🧚‍♂️']
+const ownerNumber = ['+233549772750']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
